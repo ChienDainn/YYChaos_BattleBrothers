@@ -1,20 +1,20 @@
-// import { KaboomCtx } from "kaboom";
-// import k from "./kaboomCtx";
-// import { drawTiles, fetchMapData } from "./utils";
-// import { makeSamurai } from "./entities/samurai";
-// import { TiledLayer, Directions, Entity } from "./types";
-// import { makeNinja } from "./entities/ninja";
-// import { makeHealthbar } from "./ui/healthbar";
+import { KaboomCtx } from "kaboom";
+import k from "./kaboomCtx";
+import { drawTiles, fetchMapData } from "./utils";
+import { makeSamurai } from "./entities/samurai";
+import { TiledLayer, Directions, Entity } from "./types";
+import { makeNinja } from "./entities/ninja";
+import { makeHealthbar } from "./ui/healthbar";
 
-// k.loadSprite(
-//   "background-layer-1",
-//   "./assets/background/background_layer_1.png"
-// );
+k.loadSprite(
+    "background-layer-1",
+    "./assets/background/background_layer_1.png"
+);
 
-// k.loadSprite(
-//   "background-layer-2",
-//   "./assets/background/background_layer_2.png"
-// );
+k.loadSprite(
+    "background-layer-2",
+    "./assets/background/background_layer_2.png"
+);
 
 // k.loadSprite("tileset", "./assets/oak_woods_tileset.png", {
 //   sliceX: 31,
